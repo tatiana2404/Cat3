@@ -63,13 +63,13 @@ public class Cat {
                 ", breed='" + breed + '\'' +
                 '}';
     }
-    public static String oldest(Cat cat)
+    public String oldest()
     {
-        if(cat.age>5){
-            return cat.name+" old cat";
+        if(age>5){
+            return name+" old cat";
         }
         else {
-            return cat.name+ " young cat";
+            return name+ " young cat";
         }
     }
 }
